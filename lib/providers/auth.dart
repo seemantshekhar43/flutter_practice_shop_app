@@ -10,7 +10,9 @@ class Auth with ChangeNotifier {
   String _token;
   DateTime _expiryDate;
   String _userId;
-  final webApiKey = 'AIzaSyCDtD8uKakvLUkhkg7NuziRZ-TYi0GxMfs';
+
+  //TODO: add your web api key
+  final webApiKey = 'ENTER_YOUR_KEY';
 
   bool get isAuth => token != null;
 
